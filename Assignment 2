@@ -1,1 +1,14 @@
+# Assignment 2
+a = int(input("Enter a number a"))
+b = int(input("Enter a number b"))
+c = int(input("Enter a number c"))
 
+if a >= b and a >= c:
+    A = a
+elif b >= c:
+    A = b
+else:
+    A = c
+
+print(A)
+# printed value is the biggest value.
