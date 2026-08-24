@@ -1,1 +1,61 @@
 # Assignment 1
+# Lists
+a = [1, 2]
+b = [3, 4]
+c = a + b
+c.append(5)
+print (c)
+c.pop(0)
+print (c)
+c.remove(2)
+print (c[1])
+print (c)
+c.reverse()
+print (c)
+
+# Dictionary
+d1 = {
+    "name": "John",
+    "age": 30,
+    "family":"None",
+    "City": "New York"
+}
+print (d1)
+del d1["age"]
+print (d1)
+d1["age"] = 31
+print (d1)
+
+# Tuple
+t1 = (1, 2)
+t2 = (3, 4)
+t3 = t1 + t2
+x = t3.count(1)
+y = t3.index(2)
+
+print (x)
+print (y)
+
+# List Part 2
+a = [1, 2, 3, 4, 5, 6, 7, 7, 7, 7]
+a.append(8)
+print (a)
+a.reverse()
+print (a)
+e = input("Enter a number to count in the list:")
+c = a.count(int(e))
+print (c)
+# addition is dependent on the location at which we add, additon is not commutative
+b = [1, 2, 3]
+a1 = a + b
+a2 = b + a
+print (a1)
+print (a2)
+a.insert(0, 0)
+print (a)
+a.insert(3, 100)
+print (a)
+a.pop(0)
+print (a)
+a.remove(100)
+print (a)
